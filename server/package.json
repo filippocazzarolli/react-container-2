@@ -1,9 +1,10 @@
 {
   "name": "react-container-2-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple server REST",
   "main": "index.js",
   "scripts": {
+    "start": "node index",
     "server": "nodemon",
     "testDelay": "mocha --timeout 1000",
     "test": "mocha"
@@ -28,5 +29,8 @@
     "jsonwebtoken": "^8.3.0",
     "lodash": "^4.17.11",
     "morgan": "^1.9.1"
+  },
+  "optionalDependencies": {
+    "nodemon": "^1.18.6"
   }
 }
